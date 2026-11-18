@@ -2,13 +2,14 @@ Identifier: eos2db3
 Slug: chemical-space-projections-chemdiv
 Status: Ready
 Title: Chemical space 2D projections against ChemDiv
-Description: Positions a molecule against the ChemDiv diversity collection, using
-  a 100,000-compound subset of that commercial catalogue as the reference chemical
-  space. Ersilia represents every structure with its own compound embeddings and then
-  applies three reductions fitted to the reference set, returning four principal components
-  alongside a UMAP pair and a t-SNE pair. A position expresses proximity to catalogue
-  chemistry rather than any predicted property, and because the projections are fixed
-  to this reference they cannot be compared with maps trained on another library.
+Description: Positions a molecule against the ChemDiv diversity collection, 
+  using a 100,000-compound subset of that commercial catalogue as the reference 
+  chemical space. Ersilia represents every structure with its own compound 
+  embeddings and then applies three reductions fitted to the reference set, 
+  returning four principal components alongside a UMAP pair and a t-SNE pair. A 
+  position expresses proximity to catalogue chemistry rather than any predicted 
+  property, and because the projections are fixed to this reference they cannot 
+  be compared with maps trained on another library.
 Deployment:
   - Local
 Source: Local
@@ -22,8 +23,8 @@ Output:
   - Value
 Output Dimension: 8
 Output Consistency: Fixed
-Interpretation: Four principal components plus UMAP and t-SNE coordinate pairs placing
-  a molecule in ChemDiv chemical space.
+Interpretation: Four principal components plus UMAP and t-SNE coordinate pairs 
+  placing a molecule in ChemDiv chemical space.
 Tag:
   - Embedding
 Biomedical Area:
@@ -39,7 +40,7 @@ License: GPL-3.0-or-later
 Contributor: miquelduranfrigola
 Incorporation Date: '2024-11-09'
 Last Packaging Date: '2026-03-09'
-Release: v1.0.0
+Release: v1.0.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos2db3
 Docker Architecture: AMD64
