@@ -2,7 +2,8 @@
 
 Positions a molecule against the ChemDiv diversity collection, using a 100,000-compound subset of that commercial catalogue as the reference chemical space. Ersilia represents every structure with its own compound embeddings and then applies three reductions fitted to the reference set, returning four principal components alongside a UMAP pair and a t-SNE pair. A position expresses proximity to catalogue chemistry rather than any predicted property, and because the projections are fixed to this reference they cannot be compared with maps trained on another library.
 
-This model was incorporated on 2024-11-09.Last packaged on 2026-03-09.
+This model was incorporated on 2024-11-09.
+Last packaged on 2026-03-09.
 
 ## Information
 ### Identifiers
@@ -44,6 +45,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2db3](https://hub.docker.com/r/ersiliaos/eos2db3)
 - **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos2db3_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos2db3_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1470`
